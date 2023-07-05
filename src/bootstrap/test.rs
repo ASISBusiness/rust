@@ -739,6 +739,7 @@ impl Step for CompiletestTest {
             &[],
         );
         cargo.allow_features("test");
+        cargo.env("RUSTC_STAGE", builder.top_stage.to_string());
         run_cargo_test(cargo, &[], &[], "compiletest", compiler, host, builder);
     }
 }
