@@ -46,7 +46,7 @@ limit.workspace = true
 [dev-dependencies]
 expect-test = "1.4.0"
 tracing = "0.1.35"
-tracing-subscriber = { version = "0.3.16", default-features = false, features = [
+tracing-subscriber = { version = "0.3.18", default-features = false, features = [
     "env-filter",
     "registry",
 ] }
