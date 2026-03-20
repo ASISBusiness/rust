@@ -33,10 +33,10 @@ serde_json = { workspace = true, features = ["preserve_order"] }
 serde.workspace = true
 rayon = "1.6.1"
 num_cpus = "1.15.0"
-mimalloc = { version = "0.1.30", default-features = false, optional = true }
+mimalloc = { version = "0.1.39", default-features = false, optional = true }
 lsp-server = { version = "0.7.0", path = "../../lib/lsp-server" }
 tracing = "0.1.35"
-tracing-subscriber = { version = "0.3.16", default-features = false, features = [
+tracing-subscriber = { version = "0.3.18", default-features = false, features = [
     "env-filter",
     "registry",
     "fmt",
@@ -54,7 +54,7 @@ always-assert = "0.1.2"
 thiserror = "=1.0.39"
 serde_repr = "=0.1.11"
 # these would pull in windows-sys 0.45.0
-mio = "=0.8.5"
+mio = "=0.8.11"
 filetime = "=0.2.19"
 parking_lot_core = "=0.9.6"
 
