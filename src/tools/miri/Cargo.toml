@@ -21,7 +21,7 @@ doctest = false # and no doc tests
 getrandom = { version = "0.2", features = ["std"] }
 env_logger = "0.9"
 log = "0.4"
-rand = "0.8"
+rand = "0.9"
 smallvec = "1.7"
 
 measureme = "10.0.0"
@@ -39,7 +39,7 @@ colored = "2"
 ui_test = "0.11.6"
 rustc_version = "0.4"
 # Features chosen to match those required by env_logger, to avoid rebuilds
-regex = { version = "1.5.5", default-features = false, features = ["perf", "std"] }
+regex = { version = "1.9.4", default-features = false, features = ["perf", "std"] }
 lazy_static = "1.4.0"
 
 [package.metadata.rust-analyzer]
